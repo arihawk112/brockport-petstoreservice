@@ -27,6 +27,10 @@ public class PetEntity extends AbstractPet
     @SerializedName("petId")
     protected int petId; //id will be populated if animal type is PET
 
+    public PetEntity(int newPetId, PetType petType, BigDecimal bigDecimal, Gender gender, Skin skin, PetType petType1, Breed breed, int i, int i1) {
+        super();
+    }
+
     public int getLegs() {
         return legs;
     }
